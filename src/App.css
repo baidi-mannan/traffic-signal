@@ -1,0 +1,46 @@
+.trafficContainer
+{
+  width: 100px;
+  height: 250px;
+  background-color: black;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+align-items: center;
+
+}
+.trafficContainer > div{
+  height: 60px;
+  border-radius: 50%;
+  width: 60px;
+}
+.red
+{
+
+  background-color: red;
+
+}
+.yellow
+{
+
+  background-color: yellow;
+
+}
+.green
+{
+
+  background-color: green;
+
+}
+.active
+{
+ background-color: black;
+}
+.stick
+{
+  width:15px;
+  height:300px;
+  background-color: black;
+
+}
